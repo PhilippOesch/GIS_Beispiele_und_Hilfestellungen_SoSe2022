@@ -5,6 +5,7 @@ const priceInput = document.getElementById("price-input");
 const dateInput = document.getElementById("datetime-input");
 const tableBody = document.getElementById("table-body");
 
+// Füge einen Eventlistener dem Enter-Button hinzu
 enterbutton.addEventListener("click", enterEvent);
 
 /**
