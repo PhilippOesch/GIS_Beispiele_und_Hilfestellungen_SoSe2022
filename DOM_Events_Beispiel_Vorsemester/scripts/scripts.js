@@ -1,3 +1,10 @@
+/**
+ * PS:
+ *  nicht verwirren lassen von den gehighlighteten Elementen
+ *  wie @param und @return, das sind nur extravagante Kommentare, also
+ *  kein Teil des Codes.
+*/
+
 // HTMLElement Definitionen
 const enterbutton = document.getElementById("enter-button");
 const interpretInput = document.getElementById("interpret-input");
