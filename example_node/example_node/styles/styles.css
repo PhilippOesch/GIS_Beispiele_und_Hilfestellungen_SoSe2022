@@ -1,0 +1,29 @@
+/*
+ *  Bei Verwendung der Vorlage den nachgoldenden Code bitte entfernen.  
+ */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight{
+    border-left: 0.5rem solid blue;
+    padding-left: 0.5rem ;
+}
+
+.code{
+    padding: 2px 8px;
+    color: blue;
+    background: rgb(217, 217, 246);
+    border-radius: 00.25rem;
+    font-family: monospace;
+}
+
+i{
+    line-height: 200%;
+    font-size: 18px;
+}
+
+a{
+    cursor: pointer;
+}

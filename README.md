@@ -15,3 +15,7 @@ Das ist das selbe Beispiel mit LocalStorage Implementiertung. Die Event-Einträg
 
 * [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/LocalStorage_Beispiel/)
 * [Zum Frontend](https://philippoesch.github.io/GIS_Beispiele_und_Hilfestellungen_SoSe2022/LocalStorage_Beispiel//)
+
+## Node js Beispiel
+
+* [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/example_node/)
