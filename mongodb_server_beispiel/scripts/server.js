@@ -4,7 +4,7 @@ const mongodb = require("mongodb");
 
 const hostname = "127.0.0.1"; // localhost
 const port = 3000;
-const url = "mongodb://localhost:27018"; // für lokale MongoDB //27017
+const url = "mongodb://localhost:27017"; // für lokale MongoDB //27017
 const mongoClient = new mongodb.MongoClient(url);
 
 async function startServer() {
