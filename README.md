@@ -22,4 +22,4 @@ Das ist das selbe Beispiel mit LocalStorage Implementiertung. Die Event-Einträg
 
 ## MongoDB - Server Beispiel
 
-* [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/mongo_server_beispiel)
+* [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/mongodb_server_beispiel)
