@@ -2,9 +2,9 @@
 const http = require("http");
 const mongodb = require("mongodb");
 
-const hostname = '127.0.0.1'; // localhost
+const hostname = "127.0.0.1"; // localhost
 const port = 3000;
-const url = 'mongodb://localhost:27018'; // für lokale MongoDB //27017
+const url = "mongodb://localhost:27018"; // für lokale MongoDB //27017
 const mongoClient = new mongodb.MongoClient(url);
 
 async function startServer() {
@@ -38,7 +38,7 @@ const server = http.createServer( async (request, response) => {
                 request.on("end", () => {
                     bananaCollection.insertOne(JSON.parse(jsonString));
                     console.log("---------------------------------------------------------------------");
-                    console.log("Object: " + JSON.parse(jsonString) + "x bananas were added to the basket");
+                    console.log("Object: " + jsonString + "x bananas were added to the basket");
                     console.log("---------------------------------------------------------------------");
                     response.end("Banana was added to the basket");
                 });
@@ -59,7 +59,7 @@ const server = http.createServer( async (request, response) => {
                 request.on("end", () => {
                     // Hier passiert etwas mit den Daten
                     console.log("---------------------------------------------------------------------");
-                    console.log("Object: "+ JSON.parse(jsonString) + " was added to the basket");
+                    console.log("Object: " + jsonString + " was added to the basket");
                     console.log("---------------------------------------------------------------------");
                     console.log(jsonString);
                     appleCollection.insertOne(JSON.parse(jsonString));
