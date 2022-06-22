@@ -33,5 +33,7 @@ btnApple.addEventListener("click", () => {
     );
 });
 
+console.log("Bananas:");
 getFromServer("http://localhost:3000/banana");
+console.log("Apples:");
 getFromServer("http://localhost:3000/apple");
