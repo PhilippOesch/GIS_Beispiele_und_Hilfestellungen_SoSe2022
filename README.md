@@ -19,3 +19,7 @@ Das ist das selbe Beispiel mit LocalStorage Implementiertung. Die Event-Einträg
 ## Node js Beispiel
 
 * [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/example_node/)
+
+## MongoDB - Server Beispiel
+
+* [Zum Quellcode](https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022/tree/main/mongo_server_beispiel)

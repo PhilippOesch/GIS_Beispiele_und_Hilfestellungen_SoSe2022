@@ -1,0 +1,19 @@
+{
+  "name": "eslint_einrichtung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./scripts/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "mongodb": "^4.7.0"
+  }
+}
